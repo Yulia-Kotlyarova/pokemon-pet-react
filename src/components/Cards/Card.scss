@@ -1,0 +1,37 @@
+@import '../../styles/variables.scss';
+
+.card {
+  &__wrapper {
+    padding: 25px 15px;
+    max-width: 250px;
+    border-radius: $radius-card;
+    background-color: $background-white;
+  }
+  &__img-box {
+    width: 200px;
+    height: 200px;
+    border-radius: $radius-card;
+    overflow: hidden;
+  }
+  &__img {
+    object-fit: contain;
+  }
+  &__title {
+    text-align: center;
+    padding: 15px 0 10px;
+  }
+}
+
+.btn__tag {
+  margin-right: 5px;
+}
+
+table {
+  width: 100%;
+  padding: 10px;
+  background-color: $background-section;
+  td {
+    text-align: center;
+    padding: 2px 0;
+  }
+}
